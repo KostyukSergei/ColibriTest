@@ -28,7 +28,7 @@ qt_add_qml_module(calqlatrexample
         "content/Display.qml"
         "content/NumberPad.qml"
         "content/CalculatorButton.qml"
-        "content/BackspaceButton.qml"
+
         "content/calculator.js"
     RESOURCES
         "content/images/backspace.svg"
