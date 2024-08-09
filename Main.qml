@@ -142,7 +142,6 @@ Window {
                 case Qt.Key_Return: operatorPressed("="); break;
                 case Qt.Key_Comma:
                 case Qt.Key_Period: digitPressed("."); break;
-                case Qt.Key_Backspace: operatorPressed("bs"); break;
             }
         }
     }

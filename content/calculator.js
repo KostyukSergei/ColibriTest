@@ -11,13 +11,15 @@ let password = ""
 function checkPassword() {
     if (password === "" && lastOp === "1")
         password = "1"
-    if (password === "1" && lastOp === "2")
+    else if (password === "1" && lastOp === "2")
         password = "12"
-    if (password === "12" && lastOp === "3")
+    else if (password === "12" && lastOp === "3")
     {
         password = ""
         return true
     }
+    else if (lastOp !== "1" && lastOp !== "2" && lastOp !== "3")
+        password = ""
     return false
 }
 

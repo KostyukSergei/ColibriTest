@@ -31,8 +31,6 @@ qt_add_qml_module(calqlatrexample
 
         "content/calculator.js"
     RESOURCES
-        "content/images/backspace.svg"
-        "content/images/backspace_fill.svg"
         "content/fonts/OpenSans-SemiBold.ttf"
 )
 if(ANDROID)
@@ -44,11 +42,11 @@ if(ANDROID)
         RESOURCES res.qrc
         RESOURCES content/fonts.qrc
         RESOURCES content/fonts.qrc
-RESOURCES content/fonts/OpenSans-SemiBold.ttf content/images/backspace.svg content/images/backspace_fill.svg content/fonts.qrc
-QML_FILES content/BackspaceButton.qml content/calculator.js content/CalculatorButton.qml content/Display.qml content/NumberPad.qml        RESOURCES content/fonts.qrc       RESOURCES content/fonts.qrc
+RESOURCES content/fonts/OpenSans-SemiBold.ttf content/fonts.qrc
+QML_FILES content/calculator.js content/CalculatorButton.qml content/Display.qml content/NumberPad.qml        RESOURCES content/fonts.qrc       RESOURCES content/fonts.qrc
         RESOURCES content/fonts.qrc
-RESOURCES content/fonts/OpenSans-SemiBold.ttf content/images/backspace.svg content/images/backspace_fill.svg
-QML_FILES content/BackspaceButton.qml content/calculator.js content/CalculatorButton.qml content/Display.qml content/NumberPad.qml
+RESOURCES content/fonts/OpenSans-SemiBold.ttf
+QML_FILES content/calculator.js content/CalculatorButton.qml content/Display.qml content/NumberPad.qml
         RESOURCES content/fonts/OpenSans-SemiBold.ttf
         RESOURCES OpenSans-SemiBold.ttf
         RESOURCES content/OpenSans-SemiBold.ttf

@@ -14,7 +14,6 @@ Item {
     implicitHeight: mainGrid.height
 
     readonly property color qtGreenColor: "#2CDE85"
-    readonly property color backspaceRedColor: "#DE2C2C"
     readonly property int spacing: 24
 
     // property bool isPortraitMode: root.isPortraitMode
@@ -110,7 +109,6 @@ Item {
                     backgroundColor: "#0889A6"
                 }
 
-                // BackspaceButton { implicitWidth: 60 }
                 OperatorButton {
                     text: "C"
                     implicitWidth: 60
